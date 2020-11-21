@@ -23,3 +23,21 @@ var qnaData = [
       answer: "Hunter X Hunter"
     }
   ];
+
+
+  function quiz(questionGiven, answerGiven) {
+
+    var useranswer = readlineSync.question(questionGiven + " ");
+  
+    if (useranswer.toUpperCase() === answerGiven.toUpperCase()) {
+      score = score + 1;
+      console.log('You are right.')
+      console.log('Your Score:', score);
+      console.log("----------------------------");
+  
+    } else {
+      console.log('You are wrong, correct answer is:', answerGiven);
+      console.log('Your Score:', score);
+      console.log("----------------------------");
+    }
+  }
