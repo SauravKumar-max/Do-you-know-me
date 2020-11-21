@@ -41,3 +41,13 @@ var qnaData = [
       console.log("----------------------------");
     }
   }
+
+
+  for (var i = 0; i < qnaData.length; i++) {
+    var questionAsked = qnaData[i];
+    quiz(questionAsked.question, questionAsked.answer);
+    if (i == qnaData.length - 1) {
+      console.log(" Your Final Score is: ", score);
+      console.log("--------------END------------");
+    }
+  }
