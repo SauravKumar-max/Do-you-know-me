@@ -18,4 +18,4 @@ Synchronous Readline for interactively running to have a conversation with the u
 Know more:- https://www.npmjs.com/package/readline-sync  
 ``` npm install readline-sync ```
 #### -Basic Knoweldge of javascript 
-##### Variables, array, objects, if else conditional statements, for loop, functions
+##### Variables, array, objects,objects inside an array, if else conditional statements, for loop, functions.
